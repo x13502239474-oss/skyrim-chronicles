@@ -6,6 +6,16 @@
 
 ---
 
+## 在线地址
+
+- **已部署站点**：https://skyrim-chronicles.app.workbuddy.host/?sharecode=2YQ7RSKBQW
+- **源码仓库**：https://github.com/x13502239474-oss/skyrim-chronicles
+
+仓库已配置 GitHub Actions 工作流（`.github/workflows/deploy.yml`）。若需启用 GitHub Pages：
+在仓库 **Settings → Pages → Build and deployment → Source** 中选择 **GitHub Actions**，之后每次
+推送到 `main` 都会自动部署到 `https://x13502239474-oss.github.io/skyrim-chronicles/`。
+（新仓库的 Pages 站点 GitHub 仅允许网页端首次启用，API 无法代劳。）
+
 ## 本地运行
 
 ```bash
